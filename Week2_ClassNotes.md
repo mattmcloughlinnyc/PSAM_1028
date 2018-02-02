@@ -1,7 +1,6 @@
-This is my code snippet:
+## This is my code snippet:
 
-```rudy
-
+```ruby
 
 // operaions
 undefined
@@ -30,6 +29,11 @@ VM398:1 Uncaught ReferenceError: firstname is not defined
     at <anonymous>:1:19
 (anonymous) @ VM398:1
 
+```
+
+## And then we did this
+
+```ruby
 
 var secondsinaminute = 60
 undefined
@@ -57,3 +61,5 @@ var hoursinaday = 24
 undefined
 var secondsinahour = secondsinaminute * minutesinanhour
 undefined
+
+```
