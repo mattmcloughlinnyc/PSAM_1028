@@ -1,0 +1,58 @@
+## Homework
+
+```ruby
+
+var firstname = "Matthew"
+undefined
+var lastname = "McLoughlin"
+undefined
+var middlename = "Carl"
+undefined
+var fullname = firstname + middlename + lastname
+undefined
+fullname = firstname + middlename + lastname
+"MatthewCarlMcLoughlin"
+var firstLetter = firstname.slice(0,1)
+undefined
+var middleLetter = middlenamename.slice(0,1)
+VM1048:1 Uncaught ReferenceError: middlenamename is not defined
+    at <anonymous>:1:20
+(anonymous) @ VM1048:1
+var middleLetter = middlename.slice(0,1)
+undefined
+var lastLetter = lastname.slice(0,1)
+undefined
+firstletter + middleLetter + lastLetter
+"undefinedCM"
+var lastLetter = lastname.slice(0.1)
+undefined
+var monogram = firstletter + middleLetter + lastLetter
+undefined
+monogram
+"undefinedCMcLoughlin"
+var monogram = firstLetter + middLeLetter + lastLetter
+VM1182:1 Uncaught ReferenceError: middLeLetter is not defined
+    at <anonymous>:1:30
+(anonymous) @ VM1182:1
+var firstLetter = firstname.slice(0,1)
+undefined
+var middleLetter = middlename.slice(0,1)
+undefined
+var lastLetter = lastname.slice(0.1)
+undefined
+var monogram = firstLetter + middLeLetter + lastLetter
+VM1190:1 Uncaught ReferenceError: middLeLetter is not defined
+    at <anonymous>:1:30
+(anonymous) @ VM1190:1
+var monogram = firstLetter + middleLetter + lastLetter
+undefined
+monogram
+"MCMcLoughlin"
+var lastLetter = lastname.slice(0,1)
+undefined
+var monogram = firstLetter + middleLetter + lastLetter
+undefined
+monogram
+"MCM"
+
+```
