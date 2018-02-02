@@ -63,3 +63,28 @@ var secondsinahour = secondsinaminute * minutesinanhour
 undefined
 
 ```
+
+## And then we did this too
+
+```ruby
+
+var clouds = 100
+undefined
+clouds = clouds + 1
+101
+clouds = clouds + 1
+102
+clouds = clouds + 1
+103
+clouds = clouds + 1
+104
+clouds = clouds + 1
+105
+++clouds
+106
+++clouds
+107
+--clouds
+106
+--clouds
+105
