@@ -93,3 +93,40 @@ colorarray.pop()
 "blue"
 colorarray
 (4) ["purple", "yellow", "red", "green"]
+
+
+
+
+
+var colorarray = ["red","green","blue"]
+var greyscalearray = ["white","gray","black"]
+var spectrumarray = colorarray.concat(greyscalearray)
+undefined
+spectrumarray
+(6) ["red", "green", "blue", "white", "gray", "black"]0: "red"1: "green"2: "blue"3: "white"4: "gray"5: "black"length: 6__proto__: Array(0)
+spectrumarray.indexOf("red")
+0
+spectrumarray.join()
+"red,green,blue,white,gray,black"
+spectrumarray.join(" is nicer than ")
+"red is nicer than green is nicer than blue is nicer than white is nicer than gray is nicer than black"
+Math.floor
+ƒ floor() { [native code] }
+Math.floor()
+NaN
+Math.random()
+0.13010104236392017
+Math.floor()
+NaN
+Math.floor(8.999)
+8
+Mat.floor(Math.random() * 10)
+VM2126:1 Uncaught ReferenceError: Mat is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2126:1
+Math.floor(Math.random() * 10)
+0
+Math.floor(Math.random() * 10)
+2
+Math.floor(Math.random() * 10)
+5
