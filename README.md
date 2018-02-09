@@ -5,4 +5,4 @@ Web Design Basics Assignments
 ## Integrated Design Program
 ## Sophomore
 
-<img src="https://www.facebook.com/photo.php?fbid=900359280124078&set=a.107080259451988.15266.100004500433723&type=3&source=11&referrer_profile_id=100004500433723">
+<img src="https://scontent.fnyc1-1.fna.fbcdn.net/v/t31.0-8/19577331_900359280124078_3163691805710820462_o.jpg?oh=2c0233846085c2a9cdcf8219af3b5ebb&oe=5AE28351">
