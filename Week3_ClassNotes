@@ -61,3 +61,35 @@ length
 __proto__
 :
 Array(0)
+
+
+
+
+
+var myphonearray = []
+undefined
+myphonearray.push()
+0
+myphonearray.push(iphone)
+VM1396:1 Uncaught ReferenceError: iphone is not defined
+    at <anonymous>:1:19
+(anonymous) @ VM1396:1
+var colorarray = ["red","green","blue"]
+colorarray.unshift("yellow")
+4
+4
+col
+VM1482:1 Uncaught ReferenceError: col is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1482:1
+colorarray
+(4) ["yellow", "red", "green", "blue"]
+colorarray.unshift("purple")
+5
+5
+colorarray
+(5) ["purple", "yellow", "red", "green", "blue"]
+colorarray.pop()
+"blue"
+colorarray
+(4) ["purple", "yellow", "red", "green"]
