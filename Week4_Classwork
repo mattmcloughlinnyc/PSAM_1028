@@ -11,3 +11,32 @@ VM310:2 That's a human
 undefined
 hasfangs
 false
+
+
+
+var hasfangs = true
+var hasclaws = true
+
+if(hasfangs){console.log("That's a vampire")} else if(hasclaws){console.log("Werewolf")} else if(hasclaws && hasfangs){console.log("That's a monster")} else{console.log("That's a human")}
+VM584:4 That's a vampire
+undefined
+hasclaws && hasfangs
+true
+
+
+
+
+var sheepcounter = 0
+​
+// while test condition is true, it do stuff in curly braces. If false, leaves the curly braces.
+​
+while(sheepcounted < 10){ //tests for conditions
+// do something in here
+console.log("I have counted" + sheepcounted + "sheep")
+​
+sheepcounted++ //shorthand for saying sheep counted = sheepcounter + 1
+​
+}
+
+var sheepcounter = 0
+while(sheepcounted < 10) {console.log("I have counted" + sheepcounted + "sheep") sheepcounted++}
