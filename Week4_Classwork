@@ -1,0 +1,13 @@
+var hasfangs = false
+if(hasfangs){console.log("That's a vampire")}
+undefined
+hasfangs
+false
+var hasfangs = false
+if(hasfangs){console.log("That's a vampire")} else{console.log("That's a human")}
+                                                   
+                                                
+VM310:2 That's a human
+undefined
+hasfangs
+false
