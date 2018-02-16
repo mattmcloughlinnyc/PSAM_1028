@@ -24,19 +24,38 @@ hasclaws && hasfangs
 true
 
 
-
-
-var sheepcounter = 0
-​
-// while test condition is true, it do stuff in curly braces. If false, leaves the curly braces.
-​
-while(sheepcounted < 10){ //tests for conditions
-// do something in here
-console.log("I have counted" + sheepcounted + "sheep")
-​
-sheepcounted++ //shorthand for saying sheep counted = sheepcounter + 1
-​
-}
-
 var sheepcounter = 0
 while(sheepcounted < 10) {console.log("I have counted" + sheepcounted + "sheep") sheepcounted++}
+
+
+
+var timestosayhello = 10
+
+for (var i = 0; i < timestosayhello; i++) {console.log("Hello!")}
+10VM902:3 Hello!
+undefined
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+</head> 
+<body> 
+<p> This before the script <p>
+<script>
+
+	var myphrase = "Hello Earthlings"
+	console.log(myphrase)
+
+	var name = prompt("What is your name")
+	console.log("Hello" + name)
+
+</script>
+<p> This after the script </p>
+
+
+</body>
+</html>
