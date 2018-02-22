@@ -6,7 +6,7 @@
 <body> 
 	<script type ="text/javascript">
 	
-var words = ["rainy","snowy","cloudy","sunny"]
+var words = ["rain","snow","clouds","sun","hail","partycloudy","sleet","foggy","humid","arid"]
 
 var word = words[Math.floor(Math.random() * words.length)]
 
