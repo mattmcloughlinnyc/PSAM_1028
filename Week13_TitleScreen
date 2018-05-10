@@ -14,12 +14,13 @@ h1 {
     color: white;
     font-family: Monaco;
     font-size: 500%;
+    text-align: center;
 }
 </style>
 
 <body>
 
-    <canvas id="canvas" width="1080" height="1920"></canvas>
+    <center><canvas id="canvas" width="1080" height="1920"></canvas></center>
 
 	<h1 id="main-heading"> --- SNAKE THE GAME --- </h1>
 
